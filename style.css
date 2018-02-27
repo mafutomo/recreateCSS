@@ -1,0 +1,176 @@
+html{
+
+}
+
+.container {
+  display: flex
+  flex-direction:column;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 608px;
+  height: 700px;
+  border-radius: 3px;
+
+  /* border: 1.5px solid black; */
+}
+
+.remaining-tag {
+  font-family: 'Mukta Mahee', sans-serif;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+  justify-content: center;
+  min-height: 100px;
+  border-radius: 7px
+}
+
+.remaining-text {
+  padding-top: 3.2%;
+  font-size: 240%;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 15px solid #424242;
+  margin-left: 532px;
+  margin-bottom: -15px;
+}
+
+.main-box{
+  font-family: 'Mukta Mahee', sans-serif;
+  align-items: center;
+  margin-top: 20px;
+  border: .5px solid #d6d6d6;
+  min-height: 478px;
+  box-shadow: 1px 1px 5px #cccccc;
+  color: 	#a5a5a5;
+  font-size: 170%;
+  font-weight: 100;
+}
+
+.progress-bar{
+  background-color: #EC5F3B;
+  border: .5px solid #EC5F3B;
+  height:20px;
+  width:75%
+}
+
+.progress-border{
+  border: 1.5px solid #e5e5e5;
+  background-color: #f7f7f7;
+}
+
+
+.body-main{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.first-line{
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.orange-text{
+  color: 	#EC5F3B;
+  font-weight:800;
+}
+
+.reg-text{
+  font-family: arial;
+  font-weight:500;
+  font-size: 80%;
+}
+
+.amt-text{
+  color: black;
+  font-weight:600;
+  padding-left: 10px;
+}
+
+.button1{
+    margin-top: 25px;
+    margin-right: 30px;
+    color: 	grey;
+    padding: 15px 60px;
+    text-align: center;
+    font-family: 'Mukta Mahee', sans-serif;
+    background-color: #FAFAFA;
+    display: inline-block;
+    border: .5px solid #d6d6d6;
+    box-shadow: 1px 1px 7px #cccccc;
+    border-radius: 5px;
+    font-size: 160%;
+    font-weight: bolder;
+}
+
+.button2{
+    margin-top: 25px;
+    color: 	grey;
+    padding: 15px 69px;
+    text-align: center;
+    font-family: 'Mukta Mahee', sans-serif;
+    background-color: #FAFAFA;
+    display: inline-block;
+    border: .5px solid #d6d6d6;
+    box-shadow: 1px 1px 7px #cccccc;
+    border-radius: 5px;
+    font-size: 160%;
+    font-weight: bolder;
+}
+
+.give-class{
+  margin-top: 10px;
+}
+
+.give-now{
+  margin-top: 20px;
+  color: 	white;
+  padding: 20px 55px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Mukta Mahee', sans-serif;
+  background-color: #19BD2F;
+  display: inline-block;
+  font-size: 16px;
+  border: .5px solid #d6d6d6;
+  box-shadow: 1px 1px 5px #cccccc;
+  border-radius: 7px;
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+.amount{
+  font-family: Serif;
+  font-family: ;
+  margin-top: 20px;
+  padding-right: 150px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  margin-right: 40px;
+  color: 	grey;
+  text-align: center;
+  font-family: 'Mukta Mahee', sans-serif;
+  background-color: white;
+  display: inline-block;
+  font-size: 16px;
+  border: .5px solid #d6d6d6;
+  border-radius: 5px;
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+.why-text{
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: 100;
+  color: #72a8ff;
+}
